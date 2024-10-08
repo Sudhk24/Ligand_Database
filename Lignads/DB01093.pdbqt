@@ -1,0 +1,10 @@
+REMARK  Name = DB01093
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  S   LIG    1       -0.052   0.051  -0.046  0.00  0.00    +0.016 S 
+ATOM      2  C   LIG    1       -0.321  -0.696   1.629  0.00  0.00    +0.121 C 
+ATOM      3  C   LIG    1        1.801   0.000  -0.024  0.00  0.00    +0.121 C 
+ATOM      4  O   LIG    1       -0.461   1.521   0.049  0.00  0.00    -0.258 OA
+ENDROOT
+TORSDOF 0

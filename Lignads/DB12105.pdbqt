@@ -1,0 +1,38 @@
+REMARK  Name = DB12105
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1        2.078   0.744  -1.372  0.00  0.00    -0.064 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LIG    1        1.529   0.068  -2.645  0.00  0.00    +0.380 N 
+ATOM      3  H   LIG    1        0.519   0.082  -2.640  0.00  0.00    -0.090 HD
+ATOM      4  H   LIG    1        1.860   0.562  -3.462  0.00  0.00    -0.090 HD
+ATOM      5  H   LIG    1        1.845  -0.890  -2.695  0.00  0.00    -0.090 HD
+ENDBRANCH   1   2
+BRANCH   1   6
+ATOM      6  C   LIG    1        1.517   0.037  -0.108  0.00  0.00    -0.013 C 
+BRANCH   6   7
+ATOM      7  C   LIG    1       -0.030   0.009   0.078  0.00  0.00    -0.016 C 
+ATOM      8  C   LIG    1       -0.648   1.424   0.065  0.00  0.00    +0.007 C 
+BRANCH   7   9
+ATOM      9  C   LIG    1       -0.456  -0.742   1.365  0.00  0.00    +0.003 C 
+BRANCH   9  11
+ATOM     10  C   LIG    1       -0.685  -2.967   2.616  0.00  0.00    +0.004 C 
+ATOM     11  C   LIG    1       -0.105  -2.243   1.394  0.00  0.00    -0.003 C 
+ENDBRANCH   9  11
+ENDBRANCH   7   9
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+BRANCH   1  12
+ATOM     12  C   LIG    1        3.640   0.765  -1.394  0.00  0.00    +0.104 C 
+BRANCH  12  13
+ATOM     13  C   LIG    1        4.304   1.589  -2.529  0.00  0.00    +0.303 C 
+ATOM     14  O   LIG    1        5.430   1.204  -2.915  0.00  0.00    -0.251 OA
+BRANCH  13  15
+ATOM     15  O   LIG    1        3.712   2.597  -2.977  0.00  0.00    -0.481 OA
+ATOM     16  H   LIG    1        2.868   2.832  -2.644  0.00  0.00    +0.295 HD
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+ENDBRANCH   1  12
+TORSDOF 8

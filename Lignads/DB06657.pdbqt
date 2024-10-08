@@ -1,0 +1,37 @@
+REMARK  Name = DB06657
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1        2.058   0.877   1.201  0.00  0.00    +0.217 C 
+ATOM      2  N   LIG    1        2.854   1.912   0.881  0.00  0.00    -0.306 N 
+ATOM      3  H   LIG    1        3.063   2.088  -0.090  0.00  0.00    +0.149 HD
+ATOM      4  O   LIG    1        1.750   0.600   2.361  0.00  0.00    -0.276 OA
+ENDROOT
+BRANCH   1   5
+ATOM      5  C   LIG    1        1.523   0.020   0.031  0.00  0.00    +0.075 C 
+BRANCH   5   6
+ATOM      6  C   LIG    1       -0.026   0.081  -0.074  0.00  0.00    +0.012 C 
+BRANCH   6   8
+ATOM      7  C   LIG    1       -2.137   1.477  -0.499  0.00  0.00    +0.004 C 
+ATOM      8  C   LIG    1       -0.613   1.489  -0.315  0.00  0.00    -0.003 C 
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+BRANCH   5   9
+ATOM      9  C   LIG    1        2.016  -1.450   0.111  0.00  0.00    +0.012 C 
+BRANCH   9  10
+ATOM     10  C   LIG    1        3.549  -1.633   0.059  0.00  0.00    -0.003 C 
+ATOM     11  C   LIG    1        3.974  -3.107   0.056  0.00  0.00    +0.004 C 
+ENDBRANCH   9  10
+ENDBRANCH   5   9
+ENDBRANCH   1   5
+BRANCH   2  12
+ATOM     12  C   LIG    1        3.421   2.852   1.852  0.00  0.00    +0.199 C 
+BRANCH  12  13
+ATOM     13  C   LIG    1        2.406   3.928   2.285  0.00  0.00    +0.228 C 
+ATOM     14  N   LIG    1        2.772   4.705   3.307  0.00  0.00    -0.328 N 
+ATOM     15  H   LIG    1        2.153   5.433   3.634  0.00  0.00    +0.145 HD
+ATOM     16  H   LIG    1        3.663   4.569   3.763  0.00  0.00    +0.145 HD
+ATOM     17  O   LIG    1        1.327   4.085   1.715  0.00  0.00    -0.274 OA
+ENDBRANCH  12  13
+ENDBRANCH   2  12
+TORSDOF 7

@@ -1,0 +1,14 @@
+REMARK  Name = DB11343
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1 SI   LIG    1        1.754   0.005   0.000  0.00  0.00    +0.000 Si
+ATOM      2  H   LIG    1        2.261   0.705   1.212  0.00  0.00    +0.000 HD
+ATOM      3  H   LIG    1        2.261   0.705  -1.212  0.00  0.00    +0.000 HD
+ATOM      4  H   LIG    1        2.253  -1.398   0.000  0.00  0.00    +0.000 HD
+ENDROOT
+BRANCH   1   5
+ATOM      5  O   LIG    1        0.078   0.014   0.000  0.00  0.00    +0.000 OA
+ATOM      6  H   LIG    1       -0.381   0.876   0.000  0.00  0.00    +0.000 HD
+ENDBRANCH   1   5
+TORSDOF 1

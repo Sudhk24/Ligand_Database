@@ -1,0 +1,18 @@
+REMARK  Name = DB04827
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       -0.610   1.298   0.000  0.00  0.00    +0.398 C 
+ATOM      2  N   LIG    1       -1.972   1.102   0.000  0.00  0.00    -0.295 N 
+ATOM      3  H   LIG    1       -2.338   0.161   0.000  0.00  0.00    +0.148 HD
+ATOM      4  H   LIG    1       -2.587   1.903   0.000  0.00  0.00    +0.148 HD
+ATOM      5  O   LIG    1       -0.053   2.396   0.000  0.00  0.00    -0.227 OA
+ENDROOT
+BRANCH   1   6
+ATOM      6  O   LIG    1        0.014   0.104   0.000  0.00  0.00    -0.451 OA
+BRANCH   6   7
+ATOM      7  C   LIG    1        1.434   0.027   0.000  0.00  0.00    +0.230 C 
+ATOM      8  C   LIG    1        1.864  -1.444   0.000  0.00  0.00    +0.048 C 
+ENDBRANCH   6   7
+ENDBRANCH   1   6
+TORSDOF 2

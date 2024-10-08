@@ -1,0 +1,45 @@
+REMARK  Name = DB11695
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  HIS A  1        1.358  -0.019  -0.023  0.00  0.00    +0.183 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   HIS A  1       -0.109  -0.117  -0.111  0.00  0.00    -0.302 N 
+ATOM      3  H   HIS A  1       -0.453  -0.956  -0.557  0.00  0.00    +0.150 HD
+ATOM      4  C   UNK A  0       -0.986   0.826   0.273  0.00  0.00    +0.212 C 
+ATOM      5  O   UNK A  0       -0.654   1.878   0.819  0.00  0.00    -0.276 OA
+BRANCH   4   6
+ATOM      6  C   UNK A  0       -2.464   0.546  -0.018  0.00  0.00    +0.076 C 
+BRANCH   6   7
+ATOM      7  C   UNK A  0       -2.756   0.554  -1.534  0.00  0.00    -0.077 C 
+BRANCH   7   8
+ATOM      8  N   UNK A  0       -4.247   0.299  -1.785  0.00  0.00    +0.378 N 
+ATOM      9  H   UNK A  0       -4.517  -0.598  -1.406  0.00  0.00    -0.090 HD
+ATOM     10  H   UNK A  0       -4.803   1.020  -1.347  0.00  0.00    -0.090 HD
+ATOM     11  H   UNK A  0       -4.436   0.302  -2.777  0.00  0.00    -0.090 HD
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  C   HIS A  1        1.976  -0.673  -1.324  0.00  0.00    +0.325 C 
+ATOM     13  OXT HIS A  1        2.824  -1.583  -1.168  0.00  0.00    -0.249 OA
+BRANCH  12  14
+ATOM     14  O   HIS A  1        1.571  -0.173  -2.402  0.00  0.00    -0.479 OA
+ATOM     15  H   HIS A  1        1.224   0.697  -2.414  0.00  0.00    +0.295 HD
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+BRANCH   1  16
+ATOM     16  CB  HIS A  1        1.865  -0.657   1.310  0.00  0.00    +0.059 C 
+BRANCH  16  17
+ATOM     17  CG  HIS A  1        1.481   0.095   2.562  0.00  0.00    +0.059 C 
+ATOM     18  CD2 HIS A  1        1.841   1.358   2.995  0.00  0.00    +0.096 C 
+ATOM     19  NE2 HIS A  1        1.333   1.523   4.273  0.00  0.00    -0.293 NA
+ATOM     20  HE2 HIS A  1        1.415   2.346   4.852  0.00  0.00    +0.124 HD
+ATOM     21  CE1 HIS A  1        0.754   0.370   4.605  0.00  0.00    +0.155 C 
+ATOM     22  ND1 HIS A  1        0.845  -0.528   3.625  0.00  0.00    -0.290 NA
+ATOM     23  HD1 HIS A  1        0.508  -1.480   3.648  0.00  0.00    +0.124 HD
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 8

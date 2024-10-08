@@ -1,0 +1,8 @@
+REMARK  Name = DB13134
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  F   LIG    1        0.000   0.000   0.000  0.00  0.00    -0.267 F 
+ATOM      2  H   LIG    1        0.000   0.000   0.000  0.00  0.00    +0.267 HD
+ENDROOT
+TORSDOF 0

@@ -1,0 +1,43 @@
+REMARK  Name = DB11815
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNK    1        1.423  -0.009   0.105  0.00  0.00    +0.039 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C   UNK    1       -0.115  -0.075   0.170  0.00  0.00    +0.196 C 
+BRANCH   2   3
+ATOM      3  N   UNK    1       -0.713   1.259   0.119  0.00  0.00    -0.276 N 
+ATOM      4  H   UNK    1       -0.570   1.717  -0.770  0.00  0.00    +0.258 HD
+BRANCH   3   5
+ATOM      5  C   UNK    1       -0.743   2.115   1.259  0.00  0.00    +0.378 C 
+ATOM      6  N   UNK    1       -0.816   3.368   1.119  0.00  0.00    -0.130 NA
+ATOM      7  H   UNK    1       -0.816   3.657   0.152  0.00  0.00    +0.306 HD
+BRANCH   5   9
+ATOM      8  C   UNK    1       -0.923   2.184   3.767  0.00  0.00    +0.239 C 
+ATOM      9  N   UNK    1       -0.770   1.447   2.520  0.00  0.00    -0.279 N 
+ATOM     10  H   UNK    1       -0.991   0.463   2.547  0.00  0.00    +0.258 HD
+ENDBRANCH   5   9
+ENDBRANCH   3   5
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  11
+ATOM     11  C   UNK    1        2.070  -1.408   0.061  0.00  0.00    +0.033 C 
+BRANCH  11  12
+ATOM     12  C   UNK    1        3.615  -1.399  -0.051  0.00  0.00    +0.161 C 
+BRANCH  12  13
+ATOM     13  N   UNK    1        4.154  -2.756  -0.235  0.00  0.00    -0.318 NA
+ATOM     14  H   UNK    1        5.127  -2.729  -0.508  0.00  0.00    +0.119 HD
+ATOM     15  H   UNK    1        3.658  -3.253  -0.961  0.00  0.00    +0.119 HD
+ENDBRANCH  12  13
+BRANCH  12  16
+ATOM     16  C   UNK    1        4.287  -0.811   1.206  0.00  0.00    +0.322 C 
+ATOM     17  O   UNK    1        4.266  -1.366   2.306  0.00  0.00    -0.249 OA
+BRANCH  16  18
+ATOM     18  O   UNK    1        4.872   0.392   0.940  0.00  0.00    -0.480 OA
+ATOM     19  H   UNK    1        5.289   0.773   1.716  0.00  0.00    +0.295 HD
+ENDBRANCH  16  18
+ENDBRANCH  12  16
+ENDBRANCH  11  12
+ENDBRANCH   1  11
+TORSDOF 9

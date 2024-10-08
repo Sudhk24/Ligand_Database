@@ -1,0 +1,8 @@
+REMARK  Name = DB15127
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  H   UNK    1        0.026   0.055  -0.349  0.00  0.00    +0.000 HD
+ATOM      2  H   UNK    2       -0.026  -0.055   0.349  0.00  0.00    +0.000 HD
+ENDROOT
+TORSDOF 0

@@ -1,0 +1,94 @@
+REMARK  Name = DB14658
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   LIG    1       -2.302   1.316   4.792  0.00  0.00    +0.143 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LIG    1       -2.693   2.735   4.787  0.00  0.00    -0.304 N 
+ATOM      3  H   LIG    1       -3.646   2.926   4.512  0.00  0.00    +0.149 HD
+ATOM      4  C   LIG    1       -1.893   3.781   5.060  0.00  0.00    +0.246 C 
+ATOM      5  O   LIG    1       -0.708   3.664   5.378  0.00  0.00    -0.273 OA
+BRANCH   4   6
+ATOM      6  C   LIG    1       -2.536   5.169   4.981  0.00  0.00    +0.256 C 
+ATOM      7 CL   LIG    1       -2.832   5.818   6.615  0.00  0.00    -0.094 Cl
+ATOM      8 CL   LIG    1       -1.529   6.308   4.047  0.00  0.00    -0.094 Cl
+ENDBRANCH   4   6
+ENDBRANCH   1   2
+BRANCH   1   9
+ATOM      9  C   LIG    1       -2.540   0.618   6.167  0.00  0.00    +0.168 C 
+BRANCH   9  12
+ATOM     10  C   LIG    1       -2.608  -3.201   6.155  0.00  0.00    +0.033 A 
+ATOM     11  C   LIG    1       -3.023  -1.872   6.173  0.00  0.00    +0.008 A 
+ATOM     12  C   LIG    1       -2.080  -0.842   6.177  0.00  0.00    -0.017 A 
+ATOM     13  C   LIG    1       -0.718  -1.154   6.162  0.00  0.00    +0.008 A 
+ATOM     14  C   LIG    1       -0.304  -2.482   6.143  0.00  0.00    +0.033 A 
+ATOM     15  C   LIG    1       -1.244  -3.522   6.138  0.00  0.00    +0.122 A 
+BRANCH  15  16
+ATOM     16  N   LIG    1       -0.801  -4.939   6.112  0.00  0.00    +0.006 N 
+ATOM     17  O   LIG    1        0.403  -5.180   6.107  0.00  0.00    -0.130 OA
+BRANCH  16  18
+ATOM     18  O   LIG    1       -1.655  -5.821   6.095  0.00  0.00    -0.396 OA
+ATOM     19  H   LIG    1       -2.564  -5.594   6.100  0.00  0.00    +0.329 HD
+ENDBRANCH  16  18
+ENDBRANCH  15  16
+ENDBRANCH   9  12
+BRANCH   9  20
+ATOM     20  O   LIG    1       -1.946   1.352   7.225  0.00  0.00    -0.385 OA
+ATOM     21  H   LIG    1       -2.080   2.288   7.060  0.00  0.00    +0.210 HD
+ENDBRANCH   9  20
+ENDBRANCH   1   9
+BRANCH   1  22
+ATOM     22  C   LIG    1       -3.014   0.578   3.636  0.00  0.00    +0.257 C 
+BRANCH  22  23
+ATOM     23  O   LIG    1       -2.645   1.138   2.380  0.00  0.00    -0.463 OA
+BRANCH  23  24
+ATOM     24  C   LIG    1       -3.125   0.621   1.230  0.00  0.00    +0.307 C 
+ATOM     25  O   LIG    1       -3.931  -0.305   1.132  0.00  0.00    -0.251 OA
+BRANCH  24  26
+ATOM     26  C   LIG    1       -2.548   1.304  -0.017  0.00  0.00    +0.120 C 
+BRANCH  26  27
+ATOM     27  C   LIG    1       -1.004   1.381  -0.058  0.00  0.00    +0.011 C 
+BRANCH  27  28
+ATOM     28  C   LIG    1       -0.293   0.011  -0.058  0.00  0.00    +0.001 C 
+BRANCH  28  29
+ATOM     29  C   LIG    1        1.238   0.129  -0.157  0.00  0.00    +0.000 C 
+BRANCH  29  30
+ATOM     30  C   LIG    1        1.945  -1.241  -0.138  0.00  0.00    +0.000 C 
+BRANCH  30  31
+ATOM     31  C   LIG    1        3.485  -1.165  -0.135  0.00  0.00    +0.000 C 
+BRANCH  31  32
+ATOM     32  C   LIG    1        4.098  -0.574  -1.420  0.00  0.00    -0.000 C 
+BRANCH  32  33
+ATOM     33  C   LIG    1        5.636  -0.598  -1.412  0.00  0.00    -0.000 C 
+BRANCH  33  34
+ATOM     34  C   LIG    1        6.254   0.027  -2.676  0.00  0.00    -0.000 C 
+BRANCH  34  35
+ATOM     35  C   LIG    1        7.793   0.020  -2.658  0.00  0.00    -0.000 C 
+BRANCH  35  36
+ATOM     36  C   LIG    1        8.410   0.682  -3.902  0.00  0.00    -0.000 C 
+BRANCH  36  37
+ATOM     37  C   LIG    1        9.949   0.701  -3.871  0.00  0.00    -0.000 C 
+BRANCH  37  38
+ATOM     38  C   LIG    1       10.566   1.389  -5.102  0.00  0.00    -0.000 C 
+BRANCH  38  39
+ATOM     39  C   LIG    1       12.104   1.420  -5.063  0.00  0.00    -0.003 C 
+ATOM     40  C   LIG    1       12.720   2.108  -6.289  0.00  0.00    +0.004 C 
+ENDBRANCH  38  39
+ENDBRANCH  37  38
+ENDBRANCH  36  37
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  33  34
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+ENDBRANCH  24  26
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH   1  22
+TORSDOF 24
